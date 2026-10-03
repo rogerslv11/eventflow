@@ -1,0 +1,411 @@
+- generic [ref=f22e2]:
+  - complementary [ref=f22e3]:
+    - link "EventFlow EventFlow Demo" [ref=f22e5] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/dashboard
+      - generic [ref=f22e10]:
+        - generic [ref=f22e11]: EventFlow
+        - generic [ref=f22e12]: EventFlow Demo
+    - navigation [ref=f22e13]:
+      - generic [ref=f22e14]:
+        - generic [ref=f22e15]: Visão geral
+        - link "Dashboard" [ref=f22e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+      - generic [ref=f22e22]:
+        - generic [ref=f22e23]: Operação
+        - generic [ref=f22e24]:
+          - link "Eventos" [ref=f22e25] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/events
+          - link "Pedidos" [ref=f22e29] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/orders
+          - link "Ingressos" [ref=f22e35] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/tickets
+          - link "Participantes" [ref=f22e39] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/participants
+          - link "Check-in" [ref=f22e47] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/check-in
+          - link "Lista de Espera" [ref=f22e54] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/waitlist
+      - generic [ref=f22e59]:
+        - generic [ref=f22e60]: Conteúdo
+        - generic [ref=f22e61]:
+          - link "Programação" [ref=f22e62] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/schedule
+          - link "Palestrantes" [ref=f22e67] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/speakers
+          - link "Tarefas" [ref=f22e72] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/tasks
+          - link "Avaliações" [ref=f22e77] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/reviews
+      - generic [ref=f22e81]:
+        - generic [ref=f22e82]: Negócios
+        - generic [ref=f22e83]:
+          - link "Equipe" [ref=f22e84] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/team
+          - link "Fornecedores" [ref=f22e90] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/vendors
+          - link "Patrocinadores" [ref=f22e97] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/sponsors
+          - link "Cupons" [ref=f22e101] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/coupons
+          - link "Despesas" [ref=f22e105] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/expenses
+          - link "Relatórios" [ref=f22e110] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/reports
+    - generic [ref=f22e115]:
+      - link "Configurações" [ref=f22e116] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/dashboard/settings
+      - button "Demo User Demo User EventFlow Demo" [ref=f22e122]:
+        - img "Demo User" [ref=f22e123]
+        - generic [ref=f22e124]:
+          - generic [ref=f22e125]: Demo User
+          - generic [ref=f22e126]: EventFlow Demo
+  - generic [ref=f22e129]:
+    - banner [ref=f22e130]:
+      - button "Abrir menu" [ref=f22e131]
+      - navigation "Navegação" [ref=f22e133]:
+        - link "Dashboard" [ref=f22e134] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - generic [ref=f22e137]: Participantes
+      - button "Buscar eventos, pedidos, pessoas…" [ref=f22e139]
+      - link "Ver site público" [ref=f22e144] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/events
+      - link "Novo Evento" [ref=f22e148] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/dashboard/events/create
+      - button [ref=f22e151]
+    - main [ref=f22e155]:
+      - generic [ref=f22e157]:
+        - generic [ref=f22e158]:
+          - generic [ref=f22e159]:
+            - generic [ref=f22e160]: Público
+            - heading "Participantes" [level=1] [ref=f22e162]
+            - paragraph [ref=f22e163]: Lista completa de participantes dos seus eventos.
+          - button "Exportar CSV" [ref=f22e165] [cursor=pointer]
+        - generic [ref=f22e169]:
+          - generic [ref=f22e170]:
+            - textbox "Buscar por nome, e-mail, documento..." [ref=f22e176]
+            - combobox [ref=f22e177]:
+              - option "Todos os eventos" [selected]
+              - option "Festival de Música Indie"
+              - option "Hackathon de Inovação"
+              - option "Meetup de Desenvolvedores"
+              - option "Summit de Tecnologia 2026"
+              - option "Test Event Playwright"
+              - option "Workshop de Liderança"
+            - combobox [ref=f22e178]:
+              - option "Todos os status" [selected]
+              - option "Confirmado"
+              - option "Pendente"
+              - option "Cancelado"
+              - option "Compareceu"
+          - generic [ref=f22e179]:
+            - generic [ref=f22e180]: "Check-in:"
+            - button "Todos" [ref=f22e181]
+            - button "Realizados" [ref=f22e182]
+            - button "Pendentes" [ref=f22e183]
+        - generic [ref=f22e184]:
+          - table [ref=f22e186]:
+            - rowgroup [ref=f22e187]:
+              - row [ref=f22e188]:
+                - columnheader "Participante" [ref=f22e189]
+                - columnheader "Evento" [ref=f22e190]
+                - columnheader "Ingresso" [ref=f22e191]
+                - columnheader "Status" [ref=f22e192]
+                - columnheader "Check-in" [ref=f22e193]
+                - columnheader "Cadastro" [ref=f22e194]
+                - columnheader "Ações" [ref=f22e195]
+            - rowgroup [ref=f22e196]:
+              - row [ref=f22e197]:
+                - cell "C Caroline Delatorre soares.poliana@example.com" [ref=f22e198]:
+                  - generic [ref=f22e199]:
+                    - generic [ref=f22e200]: C
+                    - generic [ref=f22e201]:
+                      - generic [ref=f22e202]: Caroline Delatorre
+                      - generic [ref=f22e203]: soares.poliana@example.com
+                - cell "Summit de Tecnologia 2026" [ref=f22e204]
+                - cell "—" [ref=f22e205]
+                - cell "Confirmado" [ref=f22e206]
+                - cell "Pendente" [ref=f22e208]
+                - cell "24/09/2026" [ref=f22e214]
+                - cell [ref=f22e215]:
+                  - button [ref=f22e217]
+              - row [ref=f22e222]:
+                - cell "S Srta. Vanessa Isabelly Cervantes Neto benedito85@example.org" [ref=f22e223]:
+                  - generic [ref=f22e224]:
+                    - generic [ref=f22e225]: S
+                    - generic [ref=f22e226]:
+                      - generic [ref=f22e227]: Srta. Vanessa Isabelly Cervantes Neto
+                      - generic [ref=f22e228]: benedito85@example.org
+                - cell "Summit de Tecnologia 2026" [ref=f22e229]
+                - cell "—" [ref=f22e230]
+                - cell "Confirmado" [ref=f22e231]
+                - cell "Pendente" [ref=f22e233]
+                - cell "24/09/2026" [ref=f22e239]
+                - cell [ref=f22e240]:
+                  - button [ref=f22e242]
+              - row [ref=f22e247]:
+                - cell "M Mariana Késia Medina Sobrinho jean50@example.com" [ref=f22e248]:
+                  - generic [ref=f22e249]:
+                    - generic [ref=f22e250]: M
+                    - generic [ref=f22e251]:
+                      - generic [ref=f22e252]: Mariana Késia Medina Sobrinho
+                      - generic [ref=f22e253]: jean50@example.com
+                - cell "Summit de Tecnologia 2026" [ref=f22e254]
+                - cell "—" [ref=f22e255]
+                - cell "Confirmado" [ref=f22e256]
+                - cell "Pendente" [ref=f22e258]
+                - cell "24/09/2026" [ref=f22e264]
+                - cell [ref=f22e265]:
+                  - button [ref=f22e267]
+              - row [ref=f22e272]:
+                - cell "S Sra. Elis Vila Verdugo Filho mmascarenhas@example.net" [ref=f22e273]:
+                  - generic [ref=f22e274]:
+                    - generic [ref=f22e275]: S
+                    - generic [ref=f22e276]:
+                      - generic [ref=f22e277]: Sra. Elis Vila Verdugo Filho
+                      - generic [ref=f22e278]: mmascarenhas@example.net
+                - cell "Summit de Tecnologia 2026" [ref=f22e279]
+                - cell "—" [ref=f22e280]
+                - cell "Confirmado" [ref=f22e281]
+                - cell "Pendente" [ref=f22e283]
+                - cell "24/09/2026" [ref=f22e289]
+                - cell [ref=f22e290]:
+                  - button [ref=f22e292]
+              - row [ref=f22e297]:
+                - cell "C Cíntia Cruz Reis mendes.joyce@example.org" [ref=f22e298]:
+                  - generic [ref=f22e299]:
+                    - generic [ref=f22e300]: C
+                    - generic [ref=f22e301]:
+                      - generic [ref=f22e302]: Cíntia Cruz Reis
+                      - generic [ref=f22e303]: mendes.joyce@example.org
+                - cell "Summit de Tecnologia 2026" [ref=f22e304]
+                - cell "—" [ref=f22e305]
+                - cell "Confirmado" [ref=f22e306]
+                - cell "Pendente" [ref=f22e308]
+                - cell "24/09/2026" [ref=f22e314]
+                - cell [ref=f22e315]:
+                  - button [ref=f22e317]
+              - row [ref=f22e322]:
+                - cell "F Filipe Maia valdez.adriel@example.net" [ref=f22e323]:
+                  - generic [ref=f22e324]:
+                    - generic [ref=f22e325]: F
+                    - generic [ref=f22e326]:
+                      - generic [ref=f22e327]: Filipe Maia
+                      - generic [ref=f22e328]: valdez.adriel@example.net
+                - cell "Summit de Tecnologia 2026" [ref=f22e329]
+                - cell "—" [ref=f22e330]
+                - cell "Confirmado" [ref=f22e331]
+                - cell "Pendente" [ref=f22e333]
+                - cell "24/09/2026" [ref=f22e339]
+                - cell [ref=f22e340]:
+                  - button [ref=f22e342]
+              - row [ref=f22e347]:
+                - cell "A Arthur Heitor Mendonça ferraz.mel@example.com" [ref=f22e348]:
+                  - generic [ref=f22e349]:
+                    - generic [ref=f22e350]: A
+                    - generic [ref=f22e351]:
+                      - generic [ref=f22e352]: Arthur Heitor Mendonça
+                      - generic [ref=f22e353]: ferraz.mel@example.com
+                - cell "Summit de Tecnologia 2026" [ref=f22e354]
+                - cell "—" [ref=f22e355]
+                - cell "Confirmado" [ref=f22e356]
+                - cell "Pendente" [ref=f22e358]
+                - cell "24/09/2026" [ref=f22e364]
+                - cell [ref=f22e365]:
+                  - button [ref=f22e367]
+              - row [ref=f22e372]:
+                - cell "D Dr. Paula Laiane Rosa Filho qgodoi@example.org" [ref=f22e373]:
+                  - generic [ref=f22e374]:
+                    - generic [ref=f22e375]: D
+                    - generic [ref=f22e376]:
+                      - generic [ref=f22e377]: Dr. Paula Laiane Rosa Filho
+                      - generic [ref=f22e378]: qgodoi@example.org
+                - cell "Summit de Tecnologia 2026" [ref=f22e379]
+                - cell "—" [ref=f22e380]
+                - cell "Confirmado" [ref=f22e381]
+                - cell "Pendente" [ref=f22e383]
+                - cell "24/09/2026" [ref=f22e389]
+                - cell [ref=f22e390]:
+                  - button [ref=f22e392]
+              - row [ref=f22e397]:
+                - cell "S Sr. Fernando Maldonado Neto estevao54@example.net" [ref=f22e398]:
+                  - generic [ref=f22e399]:
+                    - generic [ref=f22e400]: S
+                    - generic [ref=f22e401]:
+                      - generic [ref=f22e402]: Sr. Fernando Maldonado Neto
+                      - generic [ref=f22e403]: estevao54@example.net
+                - cell "Summit de Tecnologia 2026" [ref=f22e404]
+                - cell "—" [ref=f22e405]
+                - cell "Confirmado" [ref=f22e406]
+                - cell "Pendente" [ref=f22e408]
+                - cell "24/09/2026" [ref=f22e414]
+                - cell [ref=f22e415]:
+                  - button [ref=f22e417]
+              - row [ref=f22e422]:
+                - cell "S Sr. Estêvão Aragão Campos Filho vieira.rafael@example.com" [ref=f22e423]:
+                  - generic [ref=f22e424]:
+                    - generic [ref=f22e425]: S
+                    - generic [ref=f22e426]:
+                      - generic [ref=f22e427]: Sr. Estêvão Aragão Campos Filho
+                      - generic [ref=f22e428]: vieira.rafael@example.com
+                - cell "Summit de Tecnologia 2026" [ref=f22e429]
+                - cell "—" [ref=f22e430]
+                - cell "Confirmado" [ref=f22e431]
+                - cell "Pendente" [ref=f22e433]
+                - cell "24/09/2026" [ref=f22e439]
+                - cell [ref=f22e440]:
+                  - button [ref=f22e442]
+              - row [ref=f22e447]:
+                - cell "Í Ítalo Delgado leo.santiago@example.com" [ref=f22e448]:
+                  - generic [ref=f22e449]:
+                    - generic [ref=f22e450]: Í
+                    - generic [ref=f22e451]:
+                      - generic [ref=f22e452]: Ítalo Delgado
+                      - generic [ref=f22e453]: leo.santiago@example.com
+                - cell "Summit de Tecnologia 2026" [ref=f22e454]
+                - cell "—" [ref=f22e455]
+                - cell "Confirmado" [ref=f22e456]
+                - cell "Pendente" [ref=f22e458]
+                - cell "24/09/2026" [ref=f22e464]
+                - cell [ref=f22e465]:
+                  - button [ref=f22e467]
+              - row [ref=f22e472]:
+                - cell "P Paola Esther Marinho Sobrinho mateus.lozano@example.net" [ref=f22e473]:
+                  - generic [ref=f22e474]:
+                    - generic [ref=f22e475]: P
+                    - generic [ref=f22e476]:
+                      - generic [ref=f22e477]: Paola Esther Marinho Sobrinho
+                      - generic [ref=f22e478]: mateus.lozano@example.net
+                - cell "Summit de Tecnologia 2026" [ref=f22e479]
+                - cell "—" [ref=f22e480]
+                - cell "Confirmado" [ref=f22e481]
+                - cell "Pendente" [ref=f22e483]
+                - cell "24/09/2026" [ref=f22e489]
+                - cell [ref=f22e490]:
+                  - button [ref=f22e492]
+              - row [ref=f22e497]:
+                - cell "D Dr. Felipe Godói Aragão esther04@example.org" [ref=f22e498]:
+                  - generic [ref=f22e499]:
+                    - generic [ref=f22e500]: D
+                    - generic [ref=f22e501]:
+                      - generic [ref=f22e502]: Dr. Felipe Godói Aragão
+                      - generic [ref=f22e503]: esther04@example.org
+                - cell "Summit de Tecnologia 2026" [ref=f22e504]
+                - cell "—" [ref=f22e505]
+                - cell "Confirmado" [ref=f22e506]
+                - cell "Pendente" [ref=f22e508]
+                - cell "24/09/2026" [ref=f22e514]
+                - cell [ref=f22e515]:
+                  - button [ref=f22e517]
+              - row [ref=f22e522]:
+                - cell "D Dr. Santiago Correia Ortega camacho.hernani@example.net" [ref=f22e523]:
+                  - generic [ref=f22e524]:
+                    - generic [ref=f22e525]: D
+                    - generic [ref=f22e526]:
+                      - generic [ref=f22e527]: Dr. Santiago Correia Ortega
+                      - generic [ref=f22e528]: camacho.hernani@example.net
+                - cell "Summit de Tecnologia 2026" [ref=f22e529]
+                - cell "—" [ref=f22e530]
+                - cell "Confirmado" [ref=f22e531]
+                - cell "Pendente" [ref=f22e533]
+                - cell "24/09/2026" [ref=f22e539]
+                - cell [ref=f22e540]:
+                  - button [ref=f22e542]
+              - row [ref=f22e547]:
+                - cell "A Andréia Espinoza afranco@example.org" [ref=f22e548]:
+                  - generic [ref=f22e549]:
+                    - generic [ref=f22e550]: A
+                    - generic [ref=f22e551]:
+                      - generic [ref=f22e552]: Andréia Espinoza
+                      - generic [ref=f22e553]: afranco@example.org
+                - cell "Summit de Tecnologia 2026" [ref=f22e554]
+                - cell "—" [ref=f22e555]
+                - cell "Confirmado" [ref=f22e556]
+                - cell "Pendente" [ref=f22e558]
+                - cell "24/09/2026" [ref=f22e564]
+                - cell [ref=f22e565]:
+                  - button [ref=f22e567]
+              - row [ref=f22e572]:
+                - cell "B Bianca Queirós Jr. juliane.deverso@example.com" [ref=f22e573]:
+                  - generic [ref=f22e574]:
+                    - generic [ref=f22e575]: B
+                    - generic [ref=f22e576]:
+                      - generic [ref=f22e577]: Bianca Queirós Jr.
+                      - generic [ref=f22e578]: juliane.deverso@example.com
+                - cell "Workshop de Liderança" [ref=f22e579]
+                - cell "—" [ref=f22e580]
+                - cell "Confirmado" [ref=f22e581]
+                - cell "Pendente" [ref=f22e583]
+                - cell "24/09/2026" [ref=f22e589]
+                - cell [ref=f22e590]:
+                  - button [ref=f22e592]
+              - row [ref=f22e597]:
+                - cell "S Sr. Enzo Fabrício Amaral Jr. ctamoio@example.com" [ref=f22e598]:
+                  - generic [ref=f22e599]:
+                    - generic [ref=f22e600]: S
+                    - generic [ref=f22e601]:
+                      - generic [ref=f22e602]: Sr. Enzo Fabrício Amaral Jr.
+                      - generic [ref=f22e603]: ctamoio@example.com
+                - cell "Workshop de Liderança" [ref=f22e604]
+                - cell "—" [ref=f22e605]
+                - cell "Confirmado" [ref=f22e606]
+                - cell "Pendente" [ref=f22e608]
+                - cell "24/09/2026" [ref=f22e614]
+                - cell [ref=f22e615]:
+                  - button [ref=f22e617]
+              - row [ref=f22e622]:
+                - cell "S Sofia Ingrid Caldeira lgomes@example.org" [ref=f22e623]:
+                  - generic [ref=f22e624]:
+                    - generic [ref=f22e625]: S
+                    - generic [ref=f22e626]:
+                      - generic [ref=f22e627]: Sofia Ingrid Caldeira
+                      - generic [ref=f22e628]: lgomes@example.org
+                - cell "Workshop de Liderança" [ref=f22e629]
+                - cell "—" [ref=f22e630]
+                - cell "Confirmado" [ref=f22e631]
+                - cell "Pendente" [ref=f22e633]
+                - cell "24/09/2026" [ref=f22e639]
+                - cell [ref=f22e640]:
+                  - button [ref=f22e642]
+              - row [ref=f22e647]:
+                - cell "S Sr. Edson Grego Saito Neto jonas.valente@example.org" [ref=f22e648]:
+                  - generic [ref=f22e649]:
+                    - generic [ref=f22e650]: S
+                    - generic [ref=f22e651]:
+                      - generic [ref=f22e652]: Sr. Edson Grego Saito Neto
+                      - generic [ref=f22e653]: jonas.valente@example.org
+                - cell "Workshop de Liderança" [ref=f22e654]
+                - cell "—" [ref=f22e655]
+                - cell "Confirmado" [ref=f22e656]
+                - cell "Pendente" [ref=f22e658]
+                - cell "24/09/2026" [ref=f22e664]
+                - cell [ref=f22e665]:
+                  - button [ref=f22e667]
+              - row [ref=f22e672]:
+                - cell "D Dr. Rodolfo Galindo Assunção marilia.delatorre@example.com" [ref=f22e673]:
+                  - generic [ref=f22e674]:
+                    - generic [ref=f22e675]: D
+                    - generic [ref=f22e676]:
+                      - generic [ref=f22e677]: Dr. Rodolfo Galindo Assunção
+                      - generic [ref=f22e678]: marilia.delatorre@example.com
+                - cell "Workshop de Liderança" [ref=f22e679]
+                - cell "—" [ref=f22e680]
+                - cell "Confirmado" [ref=f22e681]
+                - cell "Pendente" [ref=f22e683]
+                - cell "24/09/2026" [ref=f22e689]
+                - cell [ref=f22e690]:
+                  - button [ref=f22e692]
+          - navigation "Pagination Navigation" [ref=f22e699]:
+            - generic [ref=f22e700]:
+              - paragraph [ref=f22e702]: Showing 1 to 20 of 81 results
+              - generic [ref=f22e704]:
+                - generic "&laquo; Previous" [ref=f22e706]
+                - generic [ref=f22e710]: "1"
+                - button "Go to page 2" [ref=f22e714]: "2"
+                - button "Go to page 3" [ref=f22e716]: "3"
+                - button "Go to page 4" [ref=f22e718]: "4"
+                - button "Go to page 5" [ref=f22e720]: "5"
+                - button "Next &raquo;" [ref=f22e722]
+    - contentinfo [ref=f22e725]:
+      - generic [ref=f22e726]:
+        - generic [ref=f22e727]: © 2026 EventFlow · Todos os sistemas operacionais
+        - generic [ref=f22e729]: v1.1.0

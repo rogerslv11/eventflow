@@ -1,0 +1,353 @@
+- generic [ref=f6e2]:
+  - complementary [ref=f6e3]:
+    - link "EventFlow EventFlow Demo" [ref=f6e5] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/dashboard
+      - generic [ref=f6e10]:
+        - generic [ref=f6e11]: EventFlow
+        - generic [ref=f6e12]: EventFlow Demo
+    - navigation [ref=f6e13]:
+      - generic [ref=f6e14]:
+        - generic [ref=f6e15]: Visão geral
+        - link "Dashboard" [ref=f6e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+      - generic [ref=f6e22]:
+        - generic [ref=f6e23]: Operação
+        - generic [ref=f6e24]:
+          - link "Eventos" [ref=f6e25] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/events
+          - link "Pedidos" [ref=f6e29] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/orders
+          - link "Ingressos" [ref=f6e36] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/tickets
+          - link "Participantes" [ref=f6e40] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/participants
+          - link "Check-in" [ref=f6e47] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/check-in
+          - link "Lista de Espera" [ref=f6e54] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/waitlist
+      - generic [ref=f6e59]:
+        - generic [ref=f6e60]: Conteúdo
+        - generic [ref=f6e61]:
+          - link "Programação" [ref=f6e62] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/schedule
+          - link "Palestrantes" [ref=f6e67] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/speakers
+          - link "Tarefas" [ref=f6e72] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/tasks
+          - link "Avaliações" [ref=f6e77] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/reviews
+      - generic [ref=f6e81]:
+        - generic [ref=f6e82]: Negócios
+        - generic [ref=f6e83]:
+          - link "Equipe" [ref=f6e84] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/team
+          - link "Fornecedores" [ref=f6e90] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/vendors
+          - link "Patrocinadores" [ref=f6e97] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/sponsors
+          - link "Cupons" [ref=f6e101] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/coupons
+          - link "Despesas" [ref=f6e105] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/expenses
+          - link "Relatórios" [ref=f6e110] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/reports
+    - generic [ref=f6e115]:
+      - link "Configurações" [ref=f6e116] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/dashboard/settings
+      - button "Demo User Demo User EventFlow Demo" [ref=f6e122]:
+        - img "Demo User" [ref=f6e123]
+        - generic [ref=f6e124]:
+          - generic [ref=f6e125]: Demo User
+          - generic [ref=f6e126]: EventFlow Demo
+  - generic [ref=f6e129]:
+    - banner [ref=f6e130]:
+      - button "Abrir menu" [ref=f6e131]
+      - navigation "Navegação" [ref=f6e133]:
+        - link "Dashboard" [ref=f6e134] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - generic [ref=f6e137]: Pedidos
+      - button "Buscar eventos, pedidos, pessoas…" [ref=f6e139]
+      - link "Ver site público" [ref=f6e144] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/events
+      - link "Novo Evento" [ref=f6e148] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/dashboard/events/create
+      - button [ref=f6e151]
+    - main [ref=f6e155]:
+      - generic [ref=f6e157]:
+        - generic [ref=f6e159]:
+          - generic [ref=f6e160]: Financeiro
+          - heading "Pedidos" [level=1] [ref=f6e162]
+          - paragraph [ref=f6e163]: Gerencie vendas, reembolsos e cancelamentos.
+        - generic [ref=f6e164]:
+          - generic [ref=f6e165]:
+            - generic [ref=f6e166]: Total de pedidos
+            - generic [ref=f6e167]: "167"
+          - generic [ref=f6e168]:
+            - generic [ref=f6e169]: Receita (pagos)
+            - generic [ref=f6e170]: R$ 122.670,44
+          - generic [ref=f6e171]:
+            - generic [ref=f6e172]: Pendentes
+            - generic [ref=f6e173]: "0"
+          - generic [ref=f6e174]:
+            - generic [ref=f6e175]: Reembolsados
+            - generic [ref=f6e176]: "0"
+        - generic [ref=f6e178]:
+          - textbox "Buscar por código, nome ou e-mail..." [ref=f6e184]
+          - combobox [ref=f6e185]:
+            - option "Todos os status" [selected]
+            - option "Pendente"
+            - option "Pago"
+            - option "Cancelado"
+            - option "Reembolsado"
+            - option "Expirado"
+          - combobox [ref=f6e186]:
+            - option "Todos os eventos" [selected]
+            - option "Festival de Música Indie"
+            - option "Hackathon de Inovação"
+            - option "Meetup de Desenvolvedores"
+            - option "Summit de Tecnologia 2026"
+            - option "Test Event Playwright"
+            - option "Workshop de Liderança"
+        - generic [ref=f6e187]:
+          - table [ref=f6e189]:
+            - rowgroup [ref=f6e190]:
+              - row [ref=f6e191]:
+                - columnheader "Pedido" [ref=f6e192]
+                - columnheader "Cliente" [ref=f6e193]
+                - columnheader "Evento" [ref=f6e194]
+                - columnheader "Total" [ref=f6e195]
+                - columnheader "Status" [ref=f6e196]
+                - columnheader "Ações" [ref=f6e197]
+            - rowgroup [ref=f6e198]:
+              - row [ref=f6e199]:
+                - cell "ORD-H3JBTYIWVG 24/09/2026 21:45" [ref=f6e200]:
+                  - code [ref=f6e201]: ORD-H3JBTYIWVG
+                  - generic [ref=f6e202]: 24/09/2026 21:45
+                - cell "Dr. Juliane Samara Marés Neto igor.esteves@example.org" [ref=f6e203]:
+                  - generic [ref=f6e204]: Dr. Juliane Samara Marés Neto
+                  - generic [ref=f6e205]: igor.esteves@example.org
+                - cell "Workshop de Liderança" [ref=f6e206]
+                - cell "R$ 0,00" [ref=f6e207]
+                - cell "Pago" [ref=f6e208]
+                - cell [ref=f6e210]:
+                  - button [ref=f6e211]
+                  - button "Reembolsar" [ref=f6e215]
+                  - button "Cancelar" [ref=f6e220]
+              - row [ref=f6e224]:
+                - cell "ORD-6TUYFAIXUL 24/09/2026 21:45" [ref=f6e225]:
+                  - code [ref=f6e226]: ORD-6TUYFAIXUL
+                  - generic [ref=f6e227]: 24/09/2026 21:45
+                - cell "Caio Abreu Filho rayane.corona@example.net" [ref=f6e228]:
+                  - generic [ref=f6e229]: Caio Abreu Filho
+                  - generic [ref=f6e230]: rayane.corona@example.net
+                - cell "Workshop de Liderança" [ref=f6e231]
+                - cell "R$ 324,84" [ref=f6e232]
+                - cell "Pago" [ref=f6e233]
+                - cell [ref=f6e235]:
+                  - button [ref=f6e236]
+                  - button "Reembolsar" [ref=f6e240]
+                  - button "Cancelar" [ref=f6e245]
+              - row [ref=f6e249]:
+                - cell "ORD-DSSJFTL1KN 24/09/2026 21:45" [ref=f6e250]:
+                  - code [ref=f6e251]: ORD-DSSJFTL1KN
+                  - generic [ref=f6e252]: 24/09/2026 21:45
+                - cell "Gabrielly Cruz Delvalle sanches.aparecida@example.org" [ref=f6e253]:
+                  - generic [ref=f6e254]: Gabrielly Cruz Delvalle
+                  - generic [ref=f6e255]: sanches.aparecida@example.org
+                - cell "Workshop de Liderança" [ref=f6e256]
+                - cell "R$ 696,54" [ref=f6e257]
+                - cell "Pago" [ref=f6e258]
+                - cell [ref=f6e260]:
+                  - button [ref=f6e261]
+                  - button "Reembolsar" [ref=f6e265]
+                  - button "Cancelar" [ref=f6e270]
+              - row [ref=f6e274]:
+                - cell "ORD-IJOAN36NQJ 24/09/2026 21:45" [ref=f6e275]:
+                  - code [ref=f6e276]: ORD-IJOAN36NQJ
+                  - generic [ref=f6e277]: 24/09/2026 21:45
+                - cell "Suelen Manuela Padrão Filho ysaito@example.com" [ref=f6e278]:
+                  - generic [ref=f6e279]: Suelen Manuela Padrão Filho
+                  - generic [ref=f6e280]: ysaito@example.com
+                - cell "Workshop de Liderança" [ref=f6e281]
+                - cell "R$ 4.177,80" [ref=f6e282]
+                - cell "Pago" [ref=f6e283]
+                - cell [ref=f6e285]:
+                  - button [ref=f6e286]
+                  - button "Reembolsar" [ref=f6e290]
+                  - button "Cancelar" [ref=f6e295]
+              - row [ref=f6e299]:
+                - cell "ORD-IGMFPPV4S1 24/09/2026 21:45" [ref=f6e300]:
+                  - code [ref=f6e301]: ORD-IGMFPPV4S1
+                  - generic [ref=f6e302]: 24/09/2026 21:45
+                - cell "Sr. Eduardo Cordeiro de Freitas ldelatorre@example.net" [ref=f6e303]:
+                  - generic [ref=f6e304]: Sr. Eduardo Cordeiro de Freitas
+                  - generic [ref=f6e305]: ldelatorre@example.net
+                - cell "Workshop de Liderança" [ref=f6e306]
+                - cell "R$ 108,28" [ref=f6e307]
+                - cell "Pago" [ref=f6e308]
+                - cell [ref=f6e310]:
+                  - button [ref=f6e311]
+                  - button "Reembolsar" [ref=f6e315]
+                  - button "Cancelar" [ref=f6e320]
+              - row [ref=f6e324]:
+                - cell "ORD-07JAPONOZB 24/09/2026 21:45" [ref=f6e325]:
+                  - code [ref=f6e326]: ORD-07JAPONOZB
+                  - generic [ref=f6e327]: 24/09/2026 21:45
+                - cell "Hugo Roque Ferreira hferminiano@example.org" [ref=f6e328]:
+                  - generic [ref=f6e329]: Hugo Roque Ferreira
+                  - generic [ref=f6e330]: hferminiano@example.org
+                - cell "Workshop de Liderança" [ref=f6e331]
+                - cell "R$ 4.177,80" [ref=f6e332]
+                - cell "Pago" [ref=f6e333]
+                - cell [ref=f6e335]:
+                  - button [ref=f6e336]
+                  - button "Reembolsar" [ref=f6e340]
+                  - button "Cancelar" [ref=f6e345]
+              - row [ref=f6e349]:
+                - cell "ORD-OKAI1LZRMR 24/09/2026 21:45" [ref=f6e350]:
+                  - code [ref=f6e351]: ORD-OKAI1LZRMR
+                  - generic [ref=f6e352]: 24/09/2026 21:45
+                - cell "Artur da Silva Serrano laura28@example.net" [ref=f6e353]:
+                  - generic [ref=f6e354]: Artur da Silva Serrano
+                  - generic [ref=f6e355]: laura28@example.net
+                - cell "Workshop de Liderança" [ref=f6e356]
+                - cell "R$ 0,00" [ref=f6e357]
+                - cell "Pago" [ref=f6e358]
+                - cell [ref=f6e360]:
+                  - button [ref=f6e361]
+                  - button "Reembolsar" [ref=f6e365]
+                  - button "Cancelar" [ref=f6e370]
+              - row [ref=f6e374]:
+                - cell "ORD-4FAHC0YY3A 24/09/2026 21:45" [ref=f6e375]:
+                  - code [ref=f6e376]: ORD-4FAHC0YY3A
+                  - generic [ref=f6e377]: 24/09/2026 21:45
+                - cell "Rodolfo Burgos Filho aline.velasques@example.com" [ref=f6e378]:
+                  - generic [ref=f6e379]: Rodolfo Burgos Filho
+                  - generic [ref=f6e380]: aline.velasques@example.com
+                - cell "Workshop de Liderança" [ref=f6e381]
+                - cell "R$ 108,28" [ref=f6e382]
+                - cell "Pago" [ref=f6e383]
+                - cell [ref=f6e385]:
+                  - button [ref=f6e386]
+                  - button "Reembolsar" [ref=f6e390]
+                  - button "Cancelar" [ref=f6e395]
+              - row [ref=f6e399]:
+                - cell "ORD-S2MYTLM8O0 24/09/2026 21:45" [ref=f6e400]:
+                  - code [ref=f6e401]: ORD-S2MYTLM8O0
+                  - generic [ref=f6e402]: 24/09/2026 21:45
+                - cell "Lucio Ramires Vieira Neto paola.ortega@example.net" [ref=f6e403]:
+                  - generic [ref=f6e404]: Lucio Ramires Vieira Neto
+                  - generic [ref=f6e405]: paola.ortega@example.net
+                - cell "Workshop de Liderança" [ref=f6e406]
+                - cell "R$ 0,00" [ref=f6e407]
+                - cell "Pago" [ref=f6e408]
+                - cell [ref=f6e410]:
+                  - button [ref=f6e411]
+                  - button "Reembolsar" [ref=f6e415]
+                  - button "Cancelar" [ref=f6e420]
+              - row [ref=f6e424]:
+                - cell "ORD-EDZPVHO09G 24/09/2026 21:45" [ref=f6e425]:
+                  - code [ref=f6e426]: ORD-EDZPVHO09G
+                  - generic [ref=f6e427]: 24/09/2026 21:45
+                - cell "Dr. André Escobar Zamana gabrielle48@example.net" [ref=f6e428]:
+                  - generic [ref=f6e429]: Dr. André Escobar Zamana
+                  - generic [ref=f6e430]: gabrielle48@example.net
+                - cell "Workshop de Liderança" [ref=f6e431]
+                - cell "R$ 324,84" [ref=f6e432]
+                - cell "Pago" [ref=f6e433]
+                - cell [ref=f6e435]:
+                  - button [ref=f6e436]
+                  - button "Reembolsar" [ref=f6e440]
+                  - button "Cancelar" [ref=f6e445]
+              - row [ref=f6e449]:
+                - cell "ORD-PMFPZHUDTU 24/09/2026 21:45" [ref=f6e450]:
+                  - code [ref=f6e451]: ORD-PMFPZHUDTU
+                  - generic [ref=f6e452]: 24/09/2026 21:45
+                - cell "Regina Rivera corona.graziela@example.com" [ref=f6e453]:
+                  - generic [ref=f6e454]: Regina Rivera
+                  - generic [ref=f6e455]: corona.graziela@example.com
+                - cell "Workshop de Liderança" [ref=f6e456]
+                - cell "R$ 348,27" [ref=f6e457]
+                - cell "Pago" [ref=f6e458]
+                - cell [ref=f6e460]:
+                  - button [ref=f6e461]
+                  - button "Reembolsar" [ref=f6e465]
+                  - button "Cancelar" [ref=f6e470]
+              - row [ref=f6e474]:
+                - cell "ORD-UG95QZESGV 24/09/2026 21:45" [ref=f6e475]:
+                  - code [ref=f6e476]: ORD-UG95QZESGV
+                  - generic [ref=f6e477]: 24/09/2026 21:45
+                - cell "Alice Vasques Jr. ysoares@example.net" [ref=f6e478]:
+                  - generic [ref=f6e479]: Alice Vasques Jr.
+                  - generic [ref=f6e480]: ysoares@example.net
+                - cell "Workshop de Liderança" [ref=f6e481]
+                - cell "R$ 0,00" [ref=f6e482]
+                - cell "Pago" [ref=f6e483]
+                - cell [ref=f6e485]:
+                  - button [ref=f6e486]
+                  - button "Reembolsar" [ref=f6e490]
+                  - button "Cancelar" [ref=f6e495]
+              - row [ref=f6e499]:
+                - cell "ORD-8HJT9WIMSS 24/09/2026 21:45" [ref=f6e500]:
+                  - code [ref=f6e501]: ORD-8HJT9WIMSS
+                  - generic [ref=f6e502]: 24/09/2026 21:45
+                - cell "Sra. Naomi Gabriela Domingues Neto demian.rivera@example.net" [ref=f6e503]:
+                  - generic [ref=f6e504]: Sra. Naomi Gabriela Domingues Neto
+                  - generic [ref=f6e505]: demian.rivera@example.net
+                - cell "Workshop de Liderança" [ref=f6e506]
+                - cell "R$ 108,28" [ref=f6e507]
+                - cell "Pago" [ref=f6e508]
+                - cell [ref=f6e510]:
+                  - button [ref=f6e511]
+                  - button "Reembolsar" [ref=f6e515]
+                  - button "Cancelar" [ref=f6e520]
+              - row [ref=f6e524]:
+                - cell "ORD-SXSU3DT3AH 24/09/2026 21:45" [ref=f6e525]:
+                  - code [ref=f6e526]: ORD-SXSU3DT3AH
+                  - generic [ref=f6e527]: 24/09/2026 21:45
+                - cell "Dr. Arthur Velasques Brito carla.galhardo@example.net" [ref=f6e528]:
+                  - generic [ref=f6e529]: Dr. Arthur Velasques Brito
+                  - generic [ref=f6e530]: carla.galhardo@example.net
+                - cell "Workshop de Liderança" [ref=f6e531]
+                - cell "R$ 2.785,20" [ref=f6e532]
+                - cell "Pago" [ref=f6e533]
+                - cell [ref=f6e535]:
+                  - button [ref=f6e536]
+                  - button "Reembolsar" [ref=f6e540]
+                  - button "Cancelar" [ref=f6e545]
+              - row [ref=f6e549]:
+                - cell "ORD-1JOR93UPPR 24/09/2026 21:45" [ref=f6e550]:
+                  - code [ref=f6e551]: ORD-1JOR93UPPR
+                  - generic [ref=f6e552]: 24/09/2026 21:45
+                - cell "Eloá Solano benedito31@example.org" [ref=f6e553]:
+                  - generic [ref=f6e554]: Eloá Solano
+                  - generic [ref=f6e555]: benedito31@example.org
+                - cell "Workshop de Liderança" [ref=f6e556]
+                - cell "R$ 348,27" [ref=f6e557]
+                - cell "Pago" [ref=f6e558]
+                - cell [ref=f6e560]:
+                  - button [ref=f6e561]
+                  - button "Reembolsar" [ref=f6e565]
+                  - button "Cancelar" [ref=f6e570]
+          - navigation "Pagination Navigation" [ref=f6e576]:
+            - generic [ref=f6e577]:
+              - paragraph [ref=f6e579]: Showing 1 to 15 of 167 results
+              - generic [ref=f6e581]:
+                - generic "&laquo; Previous" [ref=f6e583]
+                - generic [ref=f6e587]: "1"
+                - button "Go to page 2" [ref=f6e591]: "2"
+                - button "Go to page 3" [ref=f6e593]: "3"
+                - button "Go to page 4" [ref=f6e595]: "4"
+                - button "Go to page 5" [ref=f6e597]: "5"
+                - button "Go to page 6" [ref=f6e599]: "6"
+                - button "Go to page 7" [ref=f6e601]: "7"
+                - button "Go to page 8" [ref=f6e603]: "8"
+                - button "Go to page 9" [ref=f6e605]: "9"
+                - button "Go to page 10" [ref=f6e607]: "10"
+                - button "Go to page 11" [ref=f6e609]: "11"
+                - button "Go to page 12" [ref=f6e611]: "12"
+                - button "Next &raquo;" [ref=f6e613]
+    - contentinfo [ref=f6e616]:
+      - generic [ref=f6e617]:
+        - generic [ref=f6e618]: © 2026 EventFlow · Todos os sistemas operacionais
+        - generic [ref=f6e620]: v1.1.0

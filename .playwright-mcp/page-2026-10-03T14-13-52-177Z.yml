@@ -1,0 +1,33 @@
+- generic [ref=e4]:
+  - link "EventFlow" [ref=e6] [cursor=pointer]:
+    - /url: /
+  - generic [ref=e11]:
+    - heading "Bem-vindo de volta" [level=1] [ref=e12]
+    - paragraph [ref=e13]: Entre com sua conta para acessar a plataforma.
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]: E-mail
+      - textbox "seu@email.com" [active] [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: Senha
+        - link "Esqueceu a senha?" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/forgot-password
+      - textbox "••••••••" [ref=e22]
+    - generic [ref=e23] [cursor=pointer]:
+      - checkbox "Lembrar-me" [ref=e24]
+      - text: Lembrar-me
+    - button "Entrar" [ref=e25] [cursor=pointer]
+  - generic [ref=e29]:
+    - generic [ref=e30]: Credenciais demo
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: "E-mail:"
+        - code [ref=e34]: demo@eventflow.app
+      - generic [ref=e35]:
+        - generic [ref=e36]: "Senha:"
+        - code [ref=e37]: password
+  - paragraph [ref=e38]:
+    - text: Não tem uma conta?
+    - link "Criar conta" [ref=e39] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/register

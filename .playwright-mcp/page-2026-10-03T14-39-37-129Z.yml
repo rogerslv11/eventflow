@@ -1,0 +1,131 @@
+- generic [active] [ref=f25e1]:
+  - banner [ref=f25e2]:
+    - generic [ref=f25e3]:
+      - link "EventFlow" [ref=f25e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/events
+      - link "Dashboard" [ref=f25e11] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/dashboard
+  - generic [ref=f25e12]:
+    - img "Palestra sobre Marketing 1970" [ref=f25e13]
+    - generic [ref=f25e17]:
+      - generic [ref=f25e18]:
+        - generic [ref=f25e19]: Marketing
+        - generic [ref=f25e23]: Inscrições abertas
+      - heading "Palestra sobre Marketing 1970" [level=1] [ref=f25e25]
+      - generic [ref=f25e26]:
+        - generic [ref=f25e27]: 27 Jul 2026 às 09:24
+        - generic [ref=f25e30]: Espaço Innovation, Belo Horizonte/RJ
+        - generic [ref=f25e34]: Lourenço e Urias
+  - main [ref=f25e38]:
+    - generic [ref=f25e39]:
+      - generic [ref=f25e40]:
+        - generic [ref=f25e41]:
+          - heading "Sobre o evento" [level=2] [ref=f25e42]
+          - paragraph [ref=f25e43]: Sapiente voluptas consequatur aspernatur porro occaecati occaecati. Quia laboriosam dolorem ut cupiditate possimus ut consequuntur. Beatae et qui sunt ut quia officia et. Sunt maxime similique occaecati alias optio est voluptate.
+          - generic [ref=f25e44]: Quia veritatis nobis quo. Quibusdam temporibus id eius incidunt. Necessitatibus tempora recusandae debitis. Voluptates excepturi ipsa blanditiis incidunt suscipit rerum ut. Accusamus ut qui a distinctio quo accusantium. Ea veritatis repudiandae dolorem tempore aut aut. Consectetur ut earum est similique ratione est sapiente et. Labore voluptatem dolore voluptate facere fugiat ut qui. Alias voluptatem et iure. Provident aspernatur error nihil aut consequatur. Voluptate alias vel corrupti qui.
+        - generic [ref=f25e45]:
+          - heading "Programação" [level=2] [ref=f25e46]
+          - generic [ref=f25e47]:
+            - generic [ref=f25e48]:
+              - generic [ref=f25e49]:
+                - generic [ref=f25e50]: 09:24
+                - generic [ref=f25e51]: 27/07
+              - generic [ref=f25e52]:
+                - generic [ref=f25e53]:
+                  - generic [ref=f25e54]: Workshop
+                  - generic [ref=f25e55]: • Auditório Principal
+                - heading "Abertura do Evento - error" [level=4] [ref=f25e56]
+                - paragraph [ref=f25e57]: com Sra. Mia Alcantara Deverso Filho
+            - generic [ref=f25e58]:
+              - generic [ref=f25e59]:
+                - generic [ref=f25e60]: 10:24
+                - generic [ref=f25e61]: 27/07
+              - generic [ref=f25e62]:
+                - generic [ref=f25e63]:
+                  - generic [ref=f25e64]: Painel
+                  - generic [ref=f25e65]: • Sala B
+                - heading "Networking & Coffee - consequatur" [level=4] [ref=f25e66]
+                - paragraph [ref=f25e67]: com Srta. Antonieta Matos
+            - generic [ref=f25e68]:
+              - generic [ref=f25e69]:
+                - generic [ref=f25e70]: 11:24
+                - generic [ref=f25e71]: 27/07
+              - generic [ref=f25e72]:
+                - generic [ref=f25e73]:
+                  - generic [ref=f25e74]: Painel
+                  - generic [ref=f25e75]: • Sala B
+                - heading "Painel de Líderes - non" [level=4] [ref=f25e76]
+                - paragraph [ref=f25e77]: com Willian Henrique Serrano
+            - generic [ref=f25e78]:
+              - generic [ref=f25e79]:
+                - generic [ref=f25e80]: 12:24
+                - generic [ref=f25e81]: 27/07
+              - generic [ref=f25e82]:
+                - generic [ref=f25e83]:
+                  - generic [ref=f25e84]: Palestra
+                  - generic [ref=f25e85]: • Sala A
+                - heading "Networking & Coffee - atque" [level=4] [ref=f25e86]
+                - paragraph [ref=f25e87]: com Srta. Melinda Guerra
+            - generic [ref=f25e88]:
+              - generic [ref=f25e89]:
+                - generic [ref=f25e90]: 13:24
+                - generic [ref=f25e91]: 27/07
+              - generic [ref=f25e92]:
+                - generic [ref=f25e93]:
+                  - generic [ref=f25e94]: Workshop
+                  - generic [ref=f25e95]: • Auditório Principal
+                - heading "Encerramento - minima" [level=4] [ref=f25e96]
+                - paragraph [ref=f25e97]: com Srta. Regina Samanta Vieira
+            - generic [ref=f25e98]:
+              - generic [ref=f25e99]:
+                - generic [ref=f25e100]: 14:24
+                - generic [ref=f25e101]: 27/07
+              - generic [ref=f25e102]:
+                - generic [ref=f25e103]:
+                  - generic [ref=f25e104]: Painel
+                  - generic [ref=f25e105]: • Sala A
+                - heading "Networking & Coffee - corrupti" [level=4] [ref=f25e106]
+                - paragraph [ref=f25e107]: com Tábata Domingues Jr.
+        - generic [ref=f25e108]:
+          - heading "Avaliações" [level=2] [ref=f25e110]
+          - generic [ref=f25e111]:
+            - generic [ref=f25e112]:
+              - textbox "Seu nome *" [ref=f25e113]
+              - textbox "Seu e-mail (opcional)" [ref=f25e114]
+            - generic [ref=f25e115]:
+              - generic [ref=f25e116]: "Nota:"
+              - button "★" [ref=f25e117]
+              - button "★" [ref=f25e118]
+              - button "★" [ref=f25e119]
+              - button "★" [ref=f25e120]
+              - button "★" [ref=f25e121]
+            - textbox "Resumo (opcional)" [ref=f25e122]
+            - textbox "Como foi sua experiência?" [ref=f25e123]
+            - button "Enviar avaliação" [ref=f25e124] [cursor=pointer]
+      - complementary [ref=f25e125]:
+        - generic [ref=f25e128]:
+          - generic [ref=f25e129]:
+            - heading "Ingressos" [level=3] [ref=f25e130]
+            - generic [ref=f25e131]: Disponível
+          - paragraph [ref=f25e132]: Garanta sua vaga — vagas limitadas
+          - link "Comprar ingresso" [ref=f25e133] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/event/palestra-sobre-marketing-1970-Khiw/checkout
+          - generic [ref=f25e139]:
+            - heading "Esgotado? Entre na lista de espera" [level=4] [ref=f25e140]
+            - paragraph [ref=f25e141]: 0 pessoa(s) aguardando • Avisamos quando liberar vaga.
+            - generic [ref=f25e142]:
+              - generic [ref=f25e143]:
+                - textbox "Seu nome *" [ref=f25e144]
+                - textbox "Seu e-mail *" [ref=f25e145]
+              - generic [ref=f25e146]:
+                - textbox "WhatsApp (opcional)" [ref=f25e147]
+                - spinbutton "Qtd" [ref=f25e148]: "1"
+              - button "Avise-me quando liberar" [ref=f25e149] [cursor=pointer]
+          - generic [ref=f25e150]:
+            - generic [ref=f25e151]: Compra 100% segura
+            - generic [ref=f25e157]: Ingresso digital com QR Code
+            - generic [ref=f25e162]: Lembrete automático
+  - contentinfo [ref=f25e167]:
+    - generic [ref=f25e168]:
+      - generic [ref=f25e169]: © 2026 EventFlow — Plataforma completa para gestão de eventos.
+      - generic [ref=f25e170]: Compra segura · Ingresso digital · Suporte dedicado

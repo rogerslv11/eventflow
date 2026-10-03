@@ -1,0 +1,33 @@
+- generic [ref=f32e4]:
+  - link "EventFlow" [ref=f32e6] [cursor=pointer]:
+    - /url: /
+  - generic [ref=f32e11]:
+    - heading "Bem-vindo de volta" [level=1] [ref=f32e12]
+    - paragraph [ref=f32e13]: Entre com sua conta para acessar a plataforma.
+  - generic [ref=f32e14]:
+    - generic [ref=f32e15]:
+      - generic [ref=f32e16]: E-mail
+      - textbox "seu@email.com" [active] [ref=f32e17]
+    - generic [ref=f32e18]:
+      - generic [ref=f32e19]:
+        - generic [ref=f32e20]: Senha
+        - link "Esqueceu a senha?" [ref=f32e21] [cursor=pointer]:
+          - /url: http://localhost:8081/forgot-password
+      - textbox "••••••••" [ref=f32e22]
+    - generic [ref=f32e23] [cursor=pointer]:
+      - checkbox "Lembrar-me" [ref=f32e24]
+      - text: Lembrar-me
+    - button "Entrar" [ref=f32e25] [cursor=pointer]
+  - generic [ref=f32e29]:
+    - generic [ref=f32e30]: Credenciais demo
+    - generic [ref=f32e31]:
+      - generic [ref=f32e32]:
+        - generic [ref=f32e33]: "E-mail:"
+        - code [ref=f32e34]: demo@eventflow.app
+      - generic [ref=f32e35]:
+        - generic [ref=f32e36]: "Senha:"
+        - code [ref=f32e37]: password
+  - paragraph [ref=f32e38]:
+    - text: Não tem uma conta?
+    - link "Criar conta" [ref=f32e39] [cursor=pointer]:
+      - /url: http://localhost:8081/register

@@ -1,0 +1,12 @@
+# ============================================================
+# EventFlow — override de teste: imagem com dependências dev
+# (phpunit, pint) para rodar a suíte dentro do Docker.
+# Uso:
+#   docker compose -f docker-compose.yml -f docker-compose.test.yml run --rm app php artisan test --compact
+# ============================================================
+
+services:
+  app:
+    image: eventflow-app-testing
+    build:
+      target: testing

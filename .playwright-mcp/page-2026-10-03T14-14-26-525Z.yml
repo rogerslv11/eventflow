@@ -1,0 +1,222 @@
+- generic [ref=f3e2]:
+  - complementary [ref=f3e3]:
+    - link "EventFlow EventFlow Demo" [ref=f3e5] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/dashboard
+      - generic [ref=f3e10]:
+        - generic [ref=f3e11]: EventFlow
+        - generic [ref=f3e12]: EventFlow Demo
+    - navigation [ref=f3e13]:
+      - generic [ref=f3e14]:
+        - generic [ref=f3e15]: Visão geral
+        - link "Dashboard" [ref=f3e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+      - generic [ref=f3e23]:
+        - generic [ref=f3e24]: Operação
+        - generic [ref=f3e25]:
+          - link "Eventos" [ref=f3e26] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/events
+          - link "Pedidos" [ref=f3e30] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/orders
+          - link "Ingressos" [ref=f3e36] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/tickets
+          - link "Participantes" [ref=f3e40] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/participants
+          - link "Check-in" [ref=f3e47] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/check-in
+          - link "Lista de Espera" [ref=f3e54] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/waitlist
+      - generic [ref=f3e59]:
+        - generic [ref=f3e60]: Conteúdo
+        - generic [ref=f3e61]:
+          - link "Programação" [ref=f3e62] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/schedule
+          - link "Palestrantes" [ref=f3e67] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/speakers
+          - link "Tarefas" [ref=f3e72] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/tasks
+          - link "Avaliações" [ref=f3e77] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/reviews
+      - generic [ref=f3e81]:
+        - generic [ref=f3e82]: Negócios
+        - generic [ref=f3e83]:
+          - link "Equipe" [ref=f3e84] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/team
+          - link "Fornecedores" [ref=f3e90] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/vendors
+          - link "Patrocinadores" [ref=f3e97] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/sponsors
+          - link "Cupons" [ref=f3e101] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/coupons
+          - link "Despesas" [ref=f3e105] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/expenses
+          - link "Relatórios" [ref=f3e110] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard/reports
+    - generic [ref=f3e115]:
+      - link "Configurações" [ref=f3e116] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/dashboard/settings
+      - button "Demo User Demo User EventFlow Demo" [ref=f3e122]:
+        - img "Demo User" [ref=f3e123]
+        - generic [ref=f3e124]:
+          - generic [ref=f3e125]: Demo User
+          - generic [ref=f3e126]: EventFlow Demo
+  - generic [ref=f3e129]:
+    - banner [ref=f3e130]:
+      - button "Abrir menu" [ref=f3e131]
+      - button "Buscar eventos, pedidos, pessoas…" [ref=f3e133]
+      - link "Ver site público" [ref=f3e138] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/events
+      - link "Novo Evento" [ref=f3e142] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/dashboard/events/create
+      - button [ref=f3e145]
+    - main [ref=f3e149]:
+      - generic [ref=f3e151]:
+        - generic [ref=f3e156]:
+          - generic [ref=f3e157]:
+            - generic [ref=f3e158]: Saturday, 03 de October
+            - heading "Olá, Demo 👋" [level=1] [ref=f3e161]
+            - paragraph [ref=f3e162]:
+              - text: Você tem
+              - strong [ref=f3e163]: "5"
+              - text: evento(s) ativo(s) e
+              - strong [ref=f3e164]: "5"
+              - text: programado(s).
+          - generic [ref=f3e165]:
+            - link "Novo evento" [ref=f3e166] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/dashboard/events/create
+            - link "Check-in" [ref=f3e168] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/dashboard/check-in
+        - generic [ref=f3e174]:
+          - generic [ref=f3e175]:
+            - link "Ver →" [ref=f3e180] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/dashboard/events
+            - generic [ref=f3e181]: "6"
+            - generic [ref=f3e182]: Eventos no total
+            - generic [ref=f3e183]:
+              - generic [ref=f3e184]: 5 ativos
+              - generic [ref=f3e186]: 5 próximos
+          - generic [ref=f3e188]:
+            - generic [ref=f3e189]: +12.5%
+            - generic [ref=f3e194]: "334"
+            - generic [ref=f3e195]: Ingressos vendidos
+            - generic [ref=f3e196]: crescimento contínuo
+          - generic [ref=f3e201]:
+            - generic [ref=f3e202]: +8.3%
+            - generic [ref=f3e207]: R$ 122.670
+            - generic [ref=f3e208]: Receita total
+            - generic [ref=f3e209]: tendência positiva
+          - generic [ref=f3e214]:
+            - link "Ver →" [ref=f3e222] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/dashboard/participants
+            - generic [ref=f3e223]: "334"
+            - generic [ref=f3e224]: Participantes únicos
+            - generic [ref=f3e225]: 5.4% comparecimento
+        - generic [ref=f3e231]:
+          - generic [ref=f3e237]:
+            - generic [ref=f3e238]: Em andamento
+            - generic [ref=f3e239]: "5"
+          - generic [ref=f3e245]:
+            - generic [ref=f3e246]: Próximos
+            - generic [ref=f3e247]: "5"
+          - generic [ref=f3e253]:
+            - generic [ref=f3e254]: Check-ins
+            - generic [ref=f3e255]: "18"
+          - generic [ref=f3e262]:
+            - generic [ref=f3e263]: Taxa de presença
+            - generic [ref=f3e264]: 5.4%
+        - generic [ref=f3e265]:
+          - generic [ref=f3e267]:
+            - generic [ref=f3e268]:
+              - heading "Receita por período" [level=3] [ref=f3e269]
+              - paragraph [ref=f3e270]:
+                - text: "Últimos 30 dias · Total:"
+                - strong [ref=f3e271]: R$ 68.946,08
+            - generic [ref=f3e272]:
+              - button "30d" [ref=f3e273]
+              - button "90d" [ref=f3e274]
+              - button "1a" [ref=f3e275]
+          - generic [ref=f3e278]:
+            - generic [ref=f3e280]:
+              - heading "Ingressos" [level=3] [ref=f3e281]
+              - paragraph [ref=f3e282]: Últimos 30 dias
+            - generic [ref=f3e285]:
+              - generic [ref=f3e286]:
+                - generic [ref=f3e287]: Total vendido
+                - generic [ref=f3e288]: "334"
+              - generic [ref=f3e289]:
+                - generic [ref=f3e290]: Média diária
+                - generic [ref=f3e291]: "11"
+        - generic [ref=f3e292]:
+          - generic [ref=f3e293]:
+            - generic [ref=f3e294]:
+              - generic [ref=f3e295]:
+                - heading "Top eventos" [level=3] [ref=f3e296]
+                - paragraph [ref=f3e297]: Mais ingressos vendidos
+              - link "Ver todos" [ref=f3e298] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/dashboard/events
+            - generic [ref=f3e301]:
+              - generic [ref=f3e302]:
+                - generic [ref=f3e303]: "#1"
+                - generic [ref=f3e304]:
+                  - generic [ref=f3e305]: Workshop de Liderança
+                  - generic [ref=f3e306]: 115 ingressos
+                - generic [ref=f3e307]: "115"
+              - generic [ref=f3e311]:
+                - generic [ref=f3e312]: "#2"
+                - generic [ref=f3e313]:
+                  - generic [ref=f3e314]: Meetup de Desenvolvedores
+                  - generic [ref=f3e315]: 80 ingressos
+                - generic [ref=f3e316]: "80"
+              - generic [ref=f3e320]:
+                - generic [ref=f3e321]: "#3"
+                - generic [ref=f3e322]:
+                  - generic [ref=f3e323]: Summit de Tecnologia 2026
+                  - generic [ref=f3e324]: 69 ingressos
+                - generic [ref=f3e325]: "69"
+              - generic [ref=f3e329]:
+                - generic [ref=f3e330]: "#4"
+                - generic [ref=f3e331]:
+                  - generic [ref=f3e332]: Hackathon de Inovação
+                  - generic [ref=f3e333]: 38 ingressos
+                - generic [ref=f3e334]: "38"
+              - generic [ref=f3e338]:
+                - generic [ref=f3e339]: "#5"
+                - generic [ref=f3e340]:
+                  - generic [ref=f3e341]: Festival de Música Indie
+                  - generic [ref=f3e342]: 32 ingressos
+                - generic [ref=f3e343]: "32"
+          - generic [ref=f3e347]:
+            - generic [ref=f3e348]:
+              - generic [ref=f3e349]:
+                - heading "Atividade recente" [level=3] [ref=f3e350]
+                - paragraph [ref=f3e351]: Últimas ações
+              - link "Ver tudo" [ref=f3e352] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/dashboard/activity
+            - generic [ref=f3e353]:
+              - generic [ref=f3e359]:
+                - paragraph [ref=f3e360]: Demo User · Login
+                - paragraph [ref=f3e361]: há 0 segundo
+              - generic [ref=f3e367]:
+                - paragraph [ref=f3e368]: Demo User · Login
+                - paragraph [ref=f3e369]: há 10 minutos
+              - generic [ref=f3e375]:
+                - paragraph [ref=f3e376]: Demo User · Login
+                - paragraph [ref=f3e377]: há 1 semana
+              - generic [ref=f3e381]:
+                - paragraph [ref=f3e382]: Demo User · Created
+                - paragraph [ref=f3e383]: há 1 semana
+              - generic [ref=f3e387]:
+                - paragraph [ref=f3e388]: Demo User · Created
+                - paragraph [ref=f3e389]: há 1 semana
+              - generic [ref=f3e393]:
+                - paragraph [ref=f3e394]: Demo User · Created
+                - paragraph [ref=f3e395]: há 1 semana
+              - generic [ref=f3e401]:
+                - paragraph [ref=f3e402]: Demo User · Login
+                - paragraph [ref=f3e403]: há 1 semana
+              - generic [ref=f3e409]:
+                - paragraph [ref=f3e410]: Demo User · Login
+                - paragraph [ref=f3e411]: há 1 semana
+    - contentinfo [ref=f3e412]:
+      - generic [ref=f3e413]:
+        - generic [ref=f3e414]: © 2026 EventFlow · Todos os sistemas operacionais
+        - generic [ref=f3e416]: v1.1.0

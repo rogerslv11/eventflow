@@ -1,0 +1,185 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "EventFlow" [ref=f1e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/events
+      - generic [ref=f1e10]:
+        - link "Entrar" [ref=f1e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Criar conta" [ref=f1e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=f1e13]:
+    - generic [ref=f1e14]:
+      - generic [ref=f1e15]: Agenda pública
+      - heading "Eventos disponíveis" [level=1] [ref=f1e17]
+      - paragraph [ref=f1e18]: Descubra eventos incríveis e garanta sua vaga com ingresso digital e check-in rápido.
+    - generic [ref=f1e19]:
+      - link "Palestra sobre Marketing 1970 Marketing 27 Jul 2026 · 09:24 Palestra sobre Marketing 1970 Sapiente voluptas consequatur aspernatur porro occaecati occaecati. Quia laboriosam dolorem ut cupiditate possimus ut consequuntur. Beatae et qui sunt ut quia officia et. Sunt maxime similique occaecati alias optio est voluptate. Espaço Innovation, Belo Horizonte/RJ Ver detalhes →" [ref=f1e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/palestra-sobre-marketing-1970-Khiw
+        - generic [ref=f1e21]:
+          - img "Palestra sobre Marketing 1970" [ref=f1e22]
+          - generic [ref=f1e24]: Marketing
+          - generic [ref=f1e25]: 27 Jul 2026 · 09:24
+        - generic [ref=f1e29]:
+          - heading "Palestra sobre Marketing 1970" [level=3] [ref=f1e30]
+          - paragraph [ref=f1e31]: Sapiente voluptas consequatur aspernatur porro occaecati occaecati. Quia laboriosam dolorem ut cupiditate possimus ut consequuntur. Beatae et qui sunt ut quia officia et. Sunt maxime similique occaecati alias optio est voluptate.
+          - generic [ref=f1e32]:
+            - generic [ref=f1e33]: Espaço Innovation, Belo Horizonte/RJ
+            - generic [ref=f1e37]: Ver detalhes →
+      - link "Meetup de Desenvolvedores 2013 Entretenimento 03 Aug 2026 · 03:09 Meetup de Desenvolvedores 2013 Perferendis ut veniam quia. Tempora quis asperiores laboriosam nesciunt aliquam eum. Id ut voluptas illum et consequatur repellendus. A natus enim quas expedita nam. Hotel Premium, Belo Horizonte/DF Ver detalhes →" [ref=f1e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/meetup-de-desenvolvedores-2013-fSjC
+        - generic [ref=f1e39]:
+          - img "Meetup de Desenvolvedores 2013" [ref=f1e40]
+          - generic [ref=f1e42]: Entretenimento
+          - generic [ref=f1e43]: 03 Aug 2026 · 03:09
+        - generic [ref=f1e47]:
+          - heading "Meetup de Desenvolvedores 2013" [level=3] [ref=f1e48]
+          - paragraph [ref=f1e49]: Perferendis ut veniam quia. Tempora quis asperiores laboriosam nesciunt aliquam eum. Id ut voluptas illum et consequatur repellendus. A natus enim quas expedita nam.
+          - generic [ref=f1e50]:
+            - generic [ref=f1e51]: Hotel Premium, Belo Horizonte/DF
+            - generic [ref=f1e55]: Ver detalhes →
+      - link "Encontro de Empreendedores 2011 Destaque Moda 09 Aug 2026 · 13:21 Encontro de Empreendedores 2011 Inventore odio sed nobis necessitatibus sit hic veritatis. Non repudiandae pariatur et. Fugiat accusantium libero et consequatur reprehenderit sint cupiditate. Centro de Convenções, Salvador/DF Ver detalhes →" [ref=f1e56] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/encontro-de-empreendedores-2011-ZD2w
+        - generic [ref=f1e57]:
+          - img "Encontro de Empreendedores 2011" [ref=f1e58]
+          - generic [ref=f1e60]: Destaque
+          - generic [ref=f1e63]: Moda
+          - generic [ref=f1e64]: 09 Aug 2026 · 13:21
+        - generic [ref=f1e68]:
+          - heading "Encontro de Empreendedores 2011" [level=3] [ref=f1e69]
+          - paragraph [ref=f1e70]: Inventore odio sed nobis necessitatibus sit hic veritatis. Non repudiandae pariatur et. Fugiat accusantium libero et consequatur reprehenderit sint cupiditate.
+          - generic [ref=f1e71]:
+            - generic [ref=f1e72]: Centro de Convenções, Salvador/DF
+            - generic [ref=f1e76]: Ver detalhes →
+      - link "Palestra sobre Marketing 1975 Saúde 13 Aug 2026 · 17:47 Palestra sobre Marketing 1975 Aut corrupti a ut qui. Doloribus nostrum enim voluptas corporis molestiae praesentium. Quia et laudantium recusandae sed ad. Centro de Convenções, Brasília/SC Ver detalhes →" [ref=f1e77] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/palestra-sobre-marketing-1975-2LRU
+        - generic [ref=f1e78]:
+          - img "Palestra sobre Marketing 1975" [ref=f1e79]
+          - generic [ref=f1e81]: Saúde
+          - generic [ref=f1e82]: 13 Aug 2026 · 17:47
+        - generic [ref=f1e86]:
+          - heading "Palestra sobre Marketing 1975" [level=3] [ref=f1e87]
+          - paragraph [ref=f1e88]: Aut corrupti a ut qui. Doloribus nostrum enim voluptas corporis molestiae praesentium. Quia et laudantium recusandae sed ad.
+          - generic [ref=f1e89]:
+            - generic [ref=f1e90]: Centro de Convenções, Brasília/SC
+            - generic [ref=f1e94]: Ver detalhes →
+      - link "Congresso de Marketing Digital 1985 Destaque Educação 14 Aug 2026 · 13:07 Congresso de Marketing Digital 1985 In vel adipisci minus quae enim maiores. Incidunt repellat sint nemo omnis officiis possimus. Veniam quibusdam assumenda atque earum. Hotel Premium, Belo Horizonte/MG Ver detalhes →" [ref=f1e95] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/congresso-de-marketing-digital-1985-hZMc
+        - generic [ref=f1e96]:
+          - img "Congresso de Marketing Digital 1985" [ref=f1e97]
+          - generic [ref=f1e99]: Destaque
+          - generic [ref=f1e102]: Educação
+          - generic [ref=f1e103]: 14 Aug 2026 · 13:07
+        - generic [ref=f1e107]:
+          - heading "Congresso de Marketing Digital 1985" [level=3] [ref=f1e108]
+          - paragraph [ref=f1e109]: In vel adipisci minus quae enim maiores. Incidunt repellat sint nemo omnis officiis possimus. Veniam quibusdam assumenda atque earum.
+          - generic [ref=f1e110]:
+            - generic [ref=f1e111]: Hotel Premium, Belo Horizonte/MG
+            - generic [ref=f1e115]: Ver detalhes →
+      - link "Congresso de Marketing Digital 2012 Destaque Negócios 18 Aug 2026 · 09:33 Congresso de Marketing Digital 2012 Alias est corporis ratione voluptatem in nihil consequatur. Alias eum quis et est omnis. Auditório Principal, Porto Alegre/PE Ver detalhes →" [ref=f1e116] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/congresso-de-marketing-digital-2012-psPY
+        - generic [ref=f1e117]:
+          - img "Congresso de Marketing Digital 2012" [ref=f1e118]
+          - generic [ref=f1e120]: Destaque
+          - generic [ref=f1e123]: Negócios
+          - generic [ref=f1e124]: 18 Aug 2026 · 09:33
+        - generic [ref=f1e128]:
+          - heading "Congresso de Marketing Digital 2012" [level=3] [ref=f1e129]
+          - paragraph [ref=f1e130]: Alias est corporis ratione voluptatem in nihil consequatur. Alias eum quis et est omnis.
+          - generic [ref=f1e131]:
+            - generic [ref=f1e132]: Auditório Principal, Porto Alegre/PE
+            - generic [ref=f1e136]: Ver detalhes →
+      - link "Meetup de Desenvolvedores 1992 Destaque Moda 20 Aug 2026 · 23:45 Meetup de Desenvolvedores 1992 Et amet recusandae consequatur impedit. Explicabo non fugiat est consequuntur. Modi a praesentium numquam ut ullam. Espaço Innovation, Rio de Janeiro/SC Ver detalhes →" [ref=f1e137] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/meetup-de-desenvolvedores-1992-1Z5k
+        - generic [ref=f1e138]:
+          - img "Meetup de Desenvolvedores 1992" [ref=f1e139]
+          - generic [ref=f1e141]: Destaque
+          - generic [ref=f1e144]: Moda
+          - generic [ref=f1e145]: 20 Aug 2026 · 23:45
+        - generic [ref=f1e149]:
+          - heading "Meetup de Desenvolvedores 1992" [level=3] [ref=f1e150]
+          - paragraph [ref=f1e151]: Et amet recusandae consequatur impedit. Explicabo non fugiat est consequuntur. Modi a praesentium numquam ut ullam.
+          - generic [ref=f1e152]:
+            - generic [ref=f1e153]: Espaço Innovation, Rio de Janeiro/SC
+            - generic [ref=f1e157]: Ver detalhes →
+      - link "Hackathon de Inovação 2000 Esportes 26 Aug 2026 · 12:40 Hackathon de Inovação 2000 Ullam delectus dolor necessitatibus suscipit exercitationem adipisci veniam. Animi quia est laboriosam qui. Exercitationem quas numquam est qui culpa sit et. Aut non et facere iure vel sunt. Officiis non dolorem et dolorem maiores amet nihil. Hotel Premium, Rio de Janeiro/SC Ver detalhes →" [ref=f1e158] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/hackathon-de-inovacao-2000-N5by
+        - generic [ref=f1e159]:
+          - img "Hackathon de Inovação 2000" [ref=f1e160]
+          - generic [ref=f1e162]: Esportes
+          - generic [ref=f1e163]: 26 Aug 2026 · 12:40
+        - generic [ref=f1e167]:
+          - heading "Hackathon de Inovação 2000" [level=3] [ref=f1e168]
+          - paragraph [ref=f1e169]: Ullam delectus dolor necessitatibus suscipit exercitationem adipisci veniam. Animi quia est laboriosam qui. Exercitationem quas numquam est qui culpa sit et. Aut non et facere iure vel sunt. Officiis non dolorem et dolorem maiores amet nihil.
+          - generic [ref=f1e170]:
+            - generic [ref=f1e171]: Hotel Premium, Rio de Janeiro/SC
+            - generic [ref=f1e175]: Ver detalhes →
+      - link "Festival de Inovação 2006 Marketing 07 Sep 2026 · 05:29 Festival de Inovação 2006 Doloribus et dolor mollitia dolor labore nesciunt provident. Sed facere est et accusamus non. Voluptate consequatur esse suscipit dolores optio dicta odio qui. Aspernatur earum et porro voluptas. Espaço Innovation, Curitiba/MG Ver detalhes →" [ref=f1e176] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/festival-de-inovacao-2006-Al0R
+        - generic [ref=f1e177]:
+          - img "Festival de Inovação 2006" [ref=f1e178]
+          - generic [ref=f1e180]: Marketing
+          - generic [ref=f1e181]: 07 Sep 2026 · 05:29
+        - generic [ref=f1e185]:
+          - heading "Festival de Inovação 2006" [level=3] [ref=f1e186]
+          - paragraph [ref=f1e187]: Doloribus et dolor mollitia dolor labore nesciunt provident. Sed facere est et accusamus non. Voluptate consequatur esse suscipit dolores optio dicta odio qui. Aspernatur earum et porro voluptas.
+          - generic [ref=f1e188]:
+            - generic [ref=f1e189]: Espaço Innovation, Curitiba/MG
+            - generic [ref=f1e193]: Ver detalhes →
+      - link "Conferência de IA 2003 Saúde 18 Sep 2026 · 14:32 Conferência de IA 2003 Est recusandae sint ut maxime temporibus quas. Et accusantium pariatur expedita in odio. Id omnis cum saepe consequatur quae. Quia beatae iure iste aspernatur omnis ad accusamus voluptates. Omnis cupiditate voluptas mollitia velit voluptate qui voluptas. Espaço Innovation, Florianópolis/BA Ver detalhes →" [ref=f1e194] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/conferencia-de-ia-2003-LfW2
+        - generic [ref=f1e195]:
+          - img "Conferência de IA 2003" [ref=f1e196]
+          - generic [ref=f1e198]: Saúde
+          - generic [ref=f1e199]: 18 Sep 2026 · 14:32
+        - generic [ref=f1e203]:
+          - heading "Conferência de IA 2003" [level=3] [ref=f1e204]
+          - paragraph [ref=f1e205]: Est recusandae sint ut maxime temporibus quas. Et accusantium pariatur expedita in odio. Id omnis cum saepe consequatur quae. Quia beatae iure iste aspernatur omnis ad accusamus voluptates. Omnis cupiditate voluptas mollitia velit voluptate qui voluptas.
+          - generic [ref=f1e206]:
+            - generic [ref=f1e207]: Espaço Innovation, Florianópolis/BA
+            - generic [ref=f1e211]: Ver detalhes →
+      - link "Workshop de Liderança Esportes 24 Sep 2026 · 19:45 Workshop de Liderança Workshop intensivo para desenvolvimento de líderes de alta performance. Centro de Convenções, Belo Horizonte/MG Ver detalhes →" [ref=f1e212] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/workshop-de-lideranca-YWdn
+        - generic [ref=f1e213]:
+          - img "Workshop de Liderança" [ref=f1e214]
+          - generic [ref=f1e216]: Esportes
+          - generic [ref=f1e217]: 24 Sep 2026 · 19:45
+        - generic [ref=f1e221]:
+          - heading "Workshop de Liderança" [level=3] [ref=f1e222]
+          - paragraph [ref=f1e223]: Workshop intensivo para desenvolvimento de líderes de alta performance.
+          - generic [ref=f1e224]:
+            - generic [ref=f1e225]: Centro de Convenções, Belo Horizonte/MG
+            - generic [ref=f1e229]: Ver detalhes →
+      - link "Workshop de Liderança 2016 Música 04 Oct 2026 · 01:57 Workshop de Liderança 2016 Aperiam ad voluptatem non veniam dolores. Rerum quo ab corrupti et omnis optio eos. Velit molestias animi perspiciatis iste quas consequatur aut. Auditório Principal, Fortaleza/PR Ver detalhes →" [ref=f1e230] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/event/workshop-de-lideranca-2016-NHZU
+        - generic [ref=f1e231]:
+          - img "Workshop de Liderança 2016" [ref=f1e232]
+          - generic [ref=f1e234]: Música
+          - generic [ref=f1e235]: 04 Oct 2026 · 01:57
+        - generic [ref=f1e239]:
+          - heading "Workshop de Liderança 2016" [level=3] [ref=f1e240]
+          - paragraph [ref=f1e241]: Aperiam ad voluptatem non veniam dolores. Rerum quo ab corrupti et omnis optio eos. Velit molestias animi perspiciatis iste quas consequatur aut.
+          - generic [ref=f1e242]:
+            - generic [ref=f1e243]: Auditório Principal, Fortaleza/PR
+            - generic [ref=f1e247]: Ver detalhes →
+    - navigation "Pagination Navigation" [ref=f1e249]:
+      - generic [ref=f1e250]:
+        - paragraph [ref=f1e252]: Showing 1 to 12 of 39 results
+        - generic [ref=f1e254]:
+          - generic "&laquo; Previous" [ref=f1e255]
+          - generic [ref=f1e259]: "1"
+          - link "Go to page 2" [ref=f1e261] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/events?page=2
+            - text: "2"
+          - link "Go to page 3" [ref=f1e262] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/events?page=3
+            - text: "3"
+          - link "Go to page 4" [ref=f1e263] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/events?page=4
+            - text: "4"
+          - link "Next &raquo;" [ref=f1e264] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/events?page=2
+  - contentinfo [ref=f1e267]:
+    - generic [ref=f1e268]:
+      - generic [ref=f1e269]: © 2026 EventFlow — Plataforma completa para gestão de eventos.
+      - generic [ref=f1e270]: Compra segura · Ingresso digital · Suporte dedicado
